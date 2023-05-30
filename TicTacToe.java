@@ -96,6 +96,7 @@ class TicTacToe implements ActionListener
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setLayout(null);
         f.setTitle("Tic Tac Toe");
+        f.setResizable(false);
         f.setVisible(true);
         f.add(l);
         f.setIconImage(img.getImage());
