@@ -97,6 +97,7 @@ class TicTacToe implements ActionListener
         f.setLayout(null);
         f.setTitle("Tic Tac Toe");
         f.setVisible(true);
+        f.setResizable(false);
         f.add(l);
         f.setIconImage(img.getImage());
         for(int i=0;i<3;i++)
